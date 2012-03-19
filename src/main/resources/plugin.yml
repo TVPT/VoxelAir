@@ -1,0 +1,79 @@
+name: VoxelAir
+main: com.thevoxelbox.bukkit.fly.flyRidgeFly
+version: 2.1
+website: http://thevoxelbox.com
+author: przerwap
+description: >
+             The Original Flight Plugin for Minecraft SMP.
+commands:
+  derp:
+    description: Toggles 'DERP' mode (small chance of saying things like 'DERP' on arm-swing.)
+    usage: |
+           /<command>
+           Example: /<command>
+  letmefly:
+    description: Toggles flight on and off for all the users.
+    usage: |
+           /<command>
+           Example: /<command>
+  godsays:
+    description: Speaks to the entire server with the voice of GOD.
+    usage: |
+           /<command> what you want god to say.
+           Example: /<command> GREETINGS, MY CHILDREN.
+  evilsays:
+    description: Speaks to the entire server with the voice of GOD.
+    usage: |
+           /<command> what you want god to say.
+           Example: /<command> GREETINGS, MY CHILDREN.
+  scisays:
+    description: Speaks to the entire server with the voice of GOD.
+    usage: |
+           /<command> what you want god to say.
+           Example: /<command> GREETINGS, MY CHILDREN.
+  phisays:
+    description: Speaks to the entire server with the voice of GOD.
+    usage: |
+           /<command> what you want god to say.
+           Example: /<command> GREETINGS, MY CHILDREN.
+  ignsays:
+    description: Speaks to the entire server with the voice of GOD.
+    usage: |
+           /<command> what you want god to say.
+           Example: /<command> GREETINGS, MY CHILDREN.
+  toggleconsume:
+    description: Toggles the consumption of feathers.  Players listed in admns.txt will be exempt from feather consumption even if it is enabled.
+    usage: |
+           /<command>
+           Example: /<command>
+  toggleclassic:
+    description: Toggles whether or not regular players may use the classc flyRidgeFly flight.
+    usage: |
+           /<command>
+           Example: /<command>
+  togglehover:
+    description: Toggles whether or not regular players may use the hover mode.
+    usage: |
+           /<command>
+           Example: /<command>
+  cruise:
+    description: Sets the y-coordinate cruising altitude for the player's flight.  Not recommended to use below 75.
+    usage: |
+           /<command> 0-128
+           Example: /<command> 100 will set the cruise altitude to Y: 100.
+  thrust:
+    description: Sets the distance in blocks the feather moves everyone upwards when they look straight down.
+    usage: |
+           /<command> 0-128
+           Example: /<command> 100 will set the thrust to 100.
+  vinfo:
+    description: Print out the X Y Z Yaw and Pitch of the player, to the player.
+    usage: |
+           /<command>
+           Example: /<command> .
+  voxelair:
+    description: Tells you the plugin's current settings or saves the current config to disk.
+    usage: |
+           /<command> [save]
+           Example: /<command> - will tell you the plugin's current settings.
+           Example: /<command> save - will save the current configuration to disk.
